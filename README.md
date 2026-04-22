@@ -1,16 +1,102 @@
-# React + Vite
+# 💰 Redux Balance App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React + Redux application to manage user balance with add and remove money functionality. This project demonstrates the core concepts of Redux including actions, reducers, and store.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* Add money to balance
+* Remove money from balance
+* Centralized state management using Redux
+* Clean and simple UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* Redux
+* JavaScript (ES6)
+* HTML5 & CSS3
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── components/
+│   └── Button.js
+│
+│── store/
+│   └── store.js
+│
+│── App.js
+│── index.js
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+
+```
+git clone https://github.com/your-username/redux-balance-app.git
+```
+
+2. Navigate to project folder
+
+```
+cd redux-balance-app
+```
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Run the project
+
+```
+npm start
+```
+
+---
+
+## 🔥 Redux Concepts Used
+
+* Store (Centralized state)
+* Actions (addMoney, removeMoney)
+* Reducer (Handles state updates)
+* Dispatch (Trigger actions)
+
+---
+
+## 📸 Output
+
+(Add your project screenshots here)
+
+---
+
+## 📌 Future Improvements
+
+* Add user authentication
+* Connect with backend (Node.js + MongoDB)
+* Improve UI with Material UI / Tailwind CSS
+
+---
+
+## 👩‍💻 Author
+
+**Vaishnavi Gund**
+
+
+
+---
+
+## ⭐ Show your support
+
+If you like this project, give it a ⭐ on GitHub!
