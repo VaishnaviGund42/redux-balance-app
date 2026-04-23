@@ -1,6 +1,6 @@
 import React from 'react'
-import { addMoney } from './store'
-import { removeMoney } from './store'
+import { addMoney } from './storeq'
+import { removeMoney } from './storeq'
 import { useDispatch } from 'react-redux'
 
 function Button() {
