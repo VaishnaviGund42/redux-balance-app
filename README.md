@@ -39,26 +39,21 @@ src/
 ---
 
 ## ⚙️ Installation & Setup
-
-1. Clone the repository
-
-```
-git clone https://github.com/your-username/redux-balance-app.git
 ```
 
-2. Navigate to project folder
+1. Navigate to project folder
 
 ```
 cd redux-balance-app
 ```
 
-3. Install dependencies
+2. Install dependencies
 
 ```
 npm install
 ```
 
-4. Run the project
+3. Run the project
 
 ```
 npm start
@@ -73,11 +68,6 @@ npm start
 * Reducer (Handles state updates)
 * Dispatch (Trigger actions)
 
----
-
-## 📸 Output
-
-(Add your project screenshots here)
 
 ---
 
